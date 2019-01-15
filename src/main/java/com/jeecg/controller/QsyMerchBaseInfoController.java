@@ -75,7 +75,7 @@ public class QsyMerchBaseInfoController extends BaseController {
 	 */
 	@RequestMapping(params = "list")
 	public ModelAndView list(HttpServletRequest request) {
-		return new ModelAndView("com/jeecg/test");
+		return new ModelAndView("com/jeecg/merchbaseinfo/qsyMerchBaseInfoList");
 	}
 
 	/**
