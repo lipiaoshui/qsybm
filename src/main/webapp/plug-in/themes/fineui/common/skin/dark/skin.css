@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* 清晰 */
+
+/*头部*/
+.layout-header{border-bottom: 0px solid rgba(55,116,238,0.5);background-color:#162440;}
+/* 左侧菜单 */
+.layout-side{background-color: #0A1733;color: #fff;z-index:999;border-right:1px solid #ddd;}
+.side-menu{background-color: #0A1733;}
+/*.side-menu li a i{color: #b6b7b8;}*/
+.side-menu .menu-item a{color: #ddd;border-bottom: 1px solid #0A1733;}
+.side-menu .menu-item:hover > a,.side-menu .menu-item:hover > a > i,.menu-item.active > a,.side-menu .active > a > i{color: #fff;}
+/* #1b9182; */
+/* .side-menu .menu-item:hover , .side-menu .menu-item.active {color: #fff;background: #1a9182;}  */
+.side-menu .menu-header{color: #fff; background: #0A1733;border-bottom: 1px solid #0A1733;height:28px;line-height:28px;}
+.side-menu .menu-item .label{color: #fff;background: rgba(55,116,238,0.5);}
+.side-menu .menu-item-child li a{color: #ddd;}
+.side-menu .menu-item-child li.active > a, .side-menu .menu-item-child li > a:hover{color: #fff; background:rgba(55,116,238,0.5);}
+.side-menu .menu-item:hover > a, .side-menu .menu-item.active > a{background:rgba(55,116,238,0.5);}
+/*菜单收缩*/
+.layout-side-arrow{background-color:#0A1733;left:201px;border-left:none;}
+.layout-side-arrow:hover{background-color:rgba(55,116,238,0.5);border:none;}
+.layout-side-arrow:hover i{color:#fff;}
+.layout-side-arrow i{color:#b6b7b8;}
+/*菜单选项卡*/
+.layout-main-tab{border-bottom:1px solid  #ccc;background:#0A1733;height: 28px;line-height: 28px;}
+/* #efeef0 */
+.tab-btn.btn-left{border-right: solid 0px #ccc;}
+.tab-btn.btn-right{border-left: solid 0px #ccc;}
+.tab-nav-content a{color: #999999;
+    /* border-right: solid 1px #ccc; */
+}
+.tab-nav-content a.active{color: #FFFFFF;
+     background: rgba(55,116,238,0.5);
+}
+.tab-nav-content a i{color:#ccc;font-size:12px;vertical-align:top;}
+.tab-nav-content a.active i:hover{color: #FF5722;}
+.tab-nav-content a:hover{
+    color: #ffffff;
+}
+
+a.active .tab-bottom-separator,a.active .sepmm{
+    position:relative;
+    top:-6px;
+    width:100%;
+    display: block;
+    height: 2px;
+    background-color: #007465;
+    padding:0 15px;
+    left:-15px;
+}
+
+.f-tabstrip-header-inkbar{
+    position: absolute;
+    left:27px;
+    width:78px;
+    z-index: 1;
+    bottom: -1px;
+    display: block;
+    height: 3px;
+    background-color: #8aa7f7; /* #007465; */
+    -webkit-transition: width .3s,left .3s;
+    transition: width .3s,left .3s;
+}
+.tab-btn:hover{
+    color: #ffffff;
+}
+
+.tab-btn {
+    color: #999;
+    background: #0A1733;
+}
+.layout-side{
+    border-right: 0px;
+}
+
+.ui_lt, .ui_rt, .ui_lb, .ui_rb, .ui_t, .ui_b {
+    background: #0A1733!important;
+}
+
